@@ -574,6 +574,12 @@ namespace LINQ
 			//foreach (var p in query) Console.WriteLine(p);
 			#endregion
 
+			#region Q06
+
+			//var query = ProductList.Select(p => new {Name = p.ProductName, Price = p.UnitPrice, StockStatus = (p.UnitsInStock > 0) ? "Available" :  "Out of Stock"});
+			//foreach (var p in query) Console.WriteLine(p);
+
+			#endregion
 
 			#endregion
 
