@@ -547,6 +547,13 @@ namespace LINQ
 
 			#endregion
 
+			#region Q02
+
+			//var query = ProductList.Select(p => new { p.ProductName });
+			//foreach (var prod in query) Console.WriteLine(prod);
+
+			#endregion
+
 			#endregion
 
 		}
