@@ -554,7 +554,14 @@ namespace LINQ
 
 			#endregion
 
-			
+
+			#region Q03
+
+			//var query = ProductList.OrderBy(p => p.UnitPrice);
+			//foreach(var prod in query) Console.WriteLine(prod.ProductName + " " + prod.UnitPrice);
+
+			#endregion
+
 
 			#endregion
 
