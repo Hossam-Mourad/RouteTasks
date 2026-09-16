@@ -554,11 +554,17 @@ namespace LINQ
 
 			#endregion
 
-
 			#region Q03
 
 			//var query = ProductList.OrderBy(p => p.UnitPrice);
 			//foreach(var prod in query) Console.WriteLine(prod.ProductName + " " + prod.UnitPrice);
+
+			#endregion
+
+			#region Q04
+
+			var query = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+			foreach (var p in query) Console.WriteLine(p) ;
 
 			#endregion
 
