@@ -563,9 +563,15 @@ namespace LINQ
 
 			#region Q04
 
-			var query = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
-			foreach (var p in query) Console.WriteLine(p) ;
+			//var query = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+			//foreach (var p in query) Console.WriteLine(p) ;
 
+			#endregion
+
+			#region Q05
+
+			//var query = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+			//foreach (var p in query) Console.WriteLine(p);
 			#endregion
 
 
