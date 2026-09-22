@@ -1,4 +1,5 @@
-﻿using static LINQ.DataSources.Source;
+﻿using System.Linq;
+using static LINQ.DataSources.Source;
 namespace LINQ
 {
 	internal class Program
@@ -595,7 +596,16 @@ namespace LINQ
 
 			#endregion
 
+			#region Q09
 
+			//var query = ProductList.Where(P => P.Category == "Beverages").OrderByDescending(p => p.UnitsInStock).Select(p => $"{p.ProductName} {p.UnitsInStock}");
+
+			//foreach (var item in query)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
 
 
 			#endregion
