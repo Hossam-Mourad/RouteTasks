@@ -644,6 +644,21 @@ namespace LINQ
 			//}
 
 			#endregion
+
+			#region Q13
+
+			//string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+			//var query = digits.Where(d => d[1] == 'i').Reverse();
+
+			//foreach (var item in query)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
+
 			#endregion
 
 		}
