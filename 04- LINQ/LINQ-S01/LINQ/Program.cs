@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using LINQ.Models;
+using System.Linq;
 using static LINQ.DataSources.Source;
 namespace LINQ
 {
@@ -604,6 +605,17 @@ namespace LINQ
 			//{
 			//	Console.WriteLine(item);
 			//}
+
+			#endregion
+
+			#region Q10
+
+			//var query = from c in CustomerList
+			//				from o in c.Orders
+			//				where o.OrderDate.Year >= 1997
+			//				select $"{c.CustomerID} {o.OrderDate}";
+
+			//foreach (var item in query) Console.WriteLine(item);
 
 			#endregion
 
