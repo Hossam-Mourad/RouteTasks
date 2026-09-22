@@ -629,6 +629,21 @@ namespace LINQ
 			//}
 
 			#endregion
+
+			#region Q12
+
+			//String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+			// var query = Arr.OrderBy(s => s.Length).ThenBy(s => s.ToLower());
+
+			// var query = Arr.OrderBy(s => s.Length).ThenBy(s => s, StringComparer.OrdinalIgnoreCase);
+
+			//foreach (var item in query)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
 			#endregion
 
 		}
