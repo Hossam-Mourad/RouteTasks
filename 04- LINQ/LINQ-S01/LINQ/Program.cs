@@ -581,13 +581,22 @@ namespace LINQ
 
 			#endregion
 
-
 			#region Q07
 
 			//var query = ProductList.Select((p, i) => new { i, p.ProductName});
 			//foreach(var prod in query) Console.WriteLine($"{prod.i + 1} {prod.ProductName},");
 
 			#endregion
+
+			#region Q08
+
+			//var query = ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+			//foreach (var item in query) Console.WriteLine(item);
+
+			#endregion
+
+
+
 
 			#endregion
 
